@@ -36,6 +36,7 @@ function App() {
           <FlexBoxRow>
             <TonConnectButton />
             <Button>
+              
               {network
                 ? network === CHAIN.MAINNET
                   ? "mainnet"

@@ -10,7 +10,9 @@ Telegram.WebApp.ready();
 
 userId = Telegram.WebApp.initDataUnsafe.user;
 
-console.log(userId);
+const element:any = document.getElementById("abc");
+
+element.innerText = userId;
 const manifestUrl =
   "https://raw.githubusercontent.com/ton-community/tutorials/main/03-client/test/public/tonconnect-manifest.json";
 

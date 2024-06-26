@@ -22,7 +22,7 @@ export function Counter() {
       <TonConnectButton />
 
       <Card>
-      <div>123</div>
+      
         <FlexBoxCol>
           <h3>Counter</h3>
           <FlexBoxRow>
