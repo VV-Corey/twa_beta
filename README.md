@@ -1,5 +1,5 @@
 # twa-template
-1
+12
 > Starter template for a new TWA interacting with the TON blockchain
 
 # Overview
