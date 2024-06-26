@@ -8,7 +8,7 @@ let userId: string;
 declare const Telegram:any;
 Telegram.WebApp.ready();
 
-userId = Telegram.WebApp.initDataUnsafe.user;
+userId = Telegram.WebApp.initDataUnsafe.userId;
 
 const element:any = document.getElementById("abc");
 
