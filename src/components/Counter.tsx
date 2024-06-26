@@ -2,6 +2,7 @@ import { TonConnectButton } from "@tonconnect/ui-react";
 import { useCounterContract } from "../hooks/useCounterContract";
 import { useTonConnect } from "../hooks/useTonConnect";
 
+
 import {
   Card,
   FlexBoxCol,
@@ -13,12 +14,15 @@ import {
 export function Counter() {
   const { connected } = useTonConnect();
   const { value, address, sendIncrement } = useCounterContract();
+ // const userId;
 
   return (
     <div className="Container">
+      
       <TonConnectButton />
 
       <Card>
+      <div>123</div>
         <FlexBoxCol>
           <h3>Counter</h3>
           <FlexBoxRow>
